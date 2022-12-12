@@ -46,14 +46,30 @@
   background-color: transparent;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .techsection {
-    height: 120vh;
+    height: 220vh;
   }
   .techsection > div {
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;
     height: 18vh;
+    font-size:14px ;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .techsection {
+    height: 200vh;
+  }
+  .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+    font-size:10px ;
+
   }
 }

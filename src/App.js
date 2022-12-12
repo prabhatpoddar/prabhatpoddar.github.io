@@ -19,7 +19,7 @@ export default function App() {
     Aos.init({ duration: 1500 });
   }, []);
 
-  const {ready}=useReady(3800)
+  const {ready}=useReady(2000)
   return (
     <div >
      {

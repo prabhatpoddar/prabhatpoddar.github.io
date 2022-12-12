@@ -10,10 +10,13 @@ import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 import SocialLinks from "./SocialLinks";
+import profilePic from "../../assets/Photo_fw20_0612.jpeg";
+
 export const About = () => {
   return (
     <>
-      <div className="about center">
+      <div className="about center ">
+        <div>
         <h1 data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Prabhat Poddar</span>
         </h1>
@@ -79,6 +82,10 @@ export const About = () => {
         >
           Resume
         </button>
+        </div>
+        <div className="About_logocontainer">
+              <img src={profilePic} alt="Images" />
+            </div>
       </div>
       <Introduction />
       <Timeline />
@@ -86,8 +93,8 @@ export const About = () => {
         <Techstacks />
 
       </section>
-      <SocialLinks/>
-      
+      <SocialLinks />
+
     </>
   );
 };

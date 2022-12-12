@@ -19,7 +19,8 @@
   outline: 0;
   background-color: inherit;
   color: inherit;
-  font-family: inherit;
+  font-family: "Raleway", sans-serif;
+
   font-size: inherit;
   box-shadow: none;
   box-sizing: border-box;
@@ -37,19 +38,19 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 32px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 16px;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 16px;
 }
 
 ul {
@@ -67,4 +68,6 @@ button {
 body {
   background-color: var(--clr-bg);
   color: var(--clr-fg);
+  font-family: "Raleway", sans-serif;
+
 }

@@ -11,7 +11,6 @@ export const Github = () => {
     grade1: "#c084f5",
     grade0: "#ecd9fc"
   };
-  // const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>

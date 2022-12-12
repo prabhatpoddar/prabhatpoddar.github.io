@@ -10,6 +10,9 @@ export const Header = () => {
   return (
     <div className="main_header">
       <header className={"header center " + themename}>
+      <h1 className={
+                  themename === "dark" ? "text-1xl text-white font-signature mt-5 capitalize bg-transparent " :"text-1xl text-black font-signature mt-5 capitalize bg-transparent "
+                }>Prabhat Poddar</h1>
         
         <Navbar />
       </header>
