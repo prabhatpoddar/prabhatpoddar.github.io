@@ -9,14 +9,24 @@ import CloseIcon from "@material-ui/icons/Close";
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
+  
 
   const toggleNavList = (id) => {
+
     var element = document.getElementById(id);
     if (element) {
       element.scrollIntoView();
     }
     setShowNavList(!showNavList);
   };
+
+   const  redirect=()=>{
+      setTimeout(function(){
+            window.location.href="https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing";
+      }, 1000);
+      return true;
+   
+  }
   return (
     <>
       <nav className="center nav">
@@ -70,14 +80,19 @@ export const Navbar = () => {
             </a>
           </li>
           <li className="nav__list-item">
-            <a
-              href="https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing"
-              onClick={toggleNavList}
+           
+           <a
+              href= "/Prabhat_Poddar_Resume.pdf"
+             onClick={redirect}
+            
+              download={true}
+
               className="link link--nav"
               target="_blank"
-              rel="noreferrer"
+          
             >
-              Resume
+            Resume
+           
             </a>
           </li>
         </ul>
