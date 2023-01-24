@@ -21,10 +21,9 @@ export const Navbar = () => {
   };
 
    const  redirect=()=>{
-      setTimeout(function(){
-            window.location.href="https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing";
-      }, 1000);
-      return true;
+    window.open(
+      "https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing"
+    );
    
   }
   return (

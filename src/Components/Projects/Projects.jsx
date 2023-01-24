@@ -198,7 +198,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="musical-jalebi-5be9ac.netlify.app/"
+                    href="https://musical-jalebi-5be9ac.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >

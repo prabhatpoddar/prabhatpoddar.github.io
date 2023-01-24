@@ -13,6 +13,13 @@ import SocialLinks from "./SocialLinks";
 import profilePic from "../../assets/Photo_fw20_0612.jpeg";
 
 export const About = () => {
+  
+   const  redirect=()=>{
+       window.open(
+          "https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing"
+        );
+   
+  }
   return (
     <>
       <div className="about center ">
@@ -72,16 +79,27 @@ export const About = () => {
           </a>
         </div>
 
-        <button
+        
+      <a 
+      href= "/Prabhat_Poddar_Resume.pdf"
+      
+      download={true}
+      
+      className="link link--nav"
+      target="_blank"
+      style={{textDecoration:"none"}}
+      onClick={redirect}
+
+      >
+      <button
           className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing"
-            );
-          }}
+        
         >
           Resume
         </button>
+       
+        
+      </a>
         </div>
         <div className="About_logocontainer">
               <img src={profilePic} alt="Images" />

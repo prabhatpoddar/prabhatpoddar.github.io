@@ -13,6 +13,7 @@ import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import useReady from "./Context/useReady";
 import LoadingPage from "./Components/About/Loading";
 import Contact from "./Components/Contact/Contact";
+import { State } from "./Components/States/State";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -31,6 +32,7 @@ export default function App() {
       <main>
         <About />
         <Github />
+        <State/>
         <section id="#projects">
           <Projects />
         </section>
