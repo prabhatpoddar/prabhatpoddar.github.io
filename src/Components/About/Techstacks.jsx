@@ -6,6 +6,8 @@ import {
   SiHtml5,
   SiMaterialui,
   SiTailwindcss,
+  SiNextdotjs,
+  SiFirebase,
 
   SiChakraui
 } from "react-icons/si";
@@ -33,6 +35,15 @@ export const Techstacks = () => {
             <h5>CSS</h5>
           </div>
           <div>
+            <SiNextdotjs />
+            <h5>Next Js</h5>
+          </div>
+          
+          <div>
+            <SiTypescript />
+            <h5>Typscript</h5>
+          </div>
+          <div>
             <FaReact />
             <h5>React</h5>
           </div>
@@ -44,8 +55,9 @@ export const Techstacks = () => {
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>
-
+    
           <div>
+            
             <SiTailwindcss />
             <h5>Tailwind Css</h5>
           </div>
@@ -67,14 +79,10 @@ export const Techstacks = () => {
             <h5>Heroku</h5>
           </div>
           <div>
-            <VscGithub />
-            <h5>Github</h5>
+            <SiFirebase />
+            <h5>Firebase</h5>
           </div>
 
-          <div>
-            <SiTypescript />
-            <h5>Typscript</h5>
-          </div>
 
           <div>
             <SiLinux />
@@ -94,10 +102,7 @@ export const Techstacks = () => {
           </div>
 
 
-          <div>
-            <FaNpm />
-            <h5>NPM</h5>
-          </div>
+    
           <div>
             <SiPostman />
             <h5>Postman</h5>
