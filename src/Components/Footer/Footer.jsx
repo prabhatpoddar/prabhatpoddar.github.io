@@ -11,7 +11,7 @@ export const Footer = () => {
         <a href="/" rel="noreferrer" target="_blank">
           <div className="footerBox">
             <h3 className="footer">
-            Inspired By <a href="https://www.linkedin.com/in/manoj-attri-b6b737228/">Manoj Attri</a>
+            Copyright © 2023 Designed and created by Prabhat Poddar
             </h3>
           </div>
         </a>

@@ -10,8 +10,8 @@ import { Github } from "./Components/About/Github";
 import { Projects } from "./Components/Projects/Projects";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
-import useReady from "./Context/useReady";
-import LoadingPage from "./Components/About/Loading";
+// import useReady from "./Context/useReady";
+// import LoadingPage from "./Components/About/Loading";
 import Contact from "./Components/Contact/Contact";
 import { State } from "./Components/States/State";
 export default function App() {
@@ -20,11 +20,11 @@ export default function App() {
     Aos.init({ duration: 1500 });
   }, []);
 
-  const {ready}=useReady(2000)
+  // const {ready}=useReady(2000)
   return (
     <div >
-     {
-      ready!==true?<LoadingPage/>:
+     {/* {
+      ready!==true?<LoadingPage/>: */}
       <div id="top" className={`${themename} app`}>
          <section id="#home">
         <Header />
@@ -44,7 +44,7 @@ export default function App() {
       <ScrollToTop />
       
         </div>
-     }
+     {/* } */}
     </div>
   );
 }

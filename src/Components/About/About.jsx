@@ -9,7 +9,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
-import SocialLinks from "./SocialLinks";
+// import SocialLinks from "./SocialLinks";
 import profilePic from "../../assets/Photo_fw20_0612.jpeg";
 
 export const About = () => {
@@ -111,7 +111,7 @@ export const About = () => {
         <Techstacks />
 
       </section>
-      <SocialLinks />
+      {/* <SocialLinks /> */}
 
     </>
   );
