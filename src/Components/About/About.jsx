@@ -29,7 +29,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
+        I am a MERN stack developer who has recently Completed His Full Stack Web Development Course from Masai School using MongoDB, Express, React, and Node.js (MERN). I am eager to put My skills to use and gain hands-on experience in a professional setting. I have a passion for coding and am constantly seeking to improve my abilities. I understand front-end technologies such as HTML, CSS, and JavaScript, as well as back-end technologies like MongoDB, Express, and Node.js.
         </p>
         <div className="about__contact center">
           <a
@@ -81,7 +81,7 @@ export const About = () => {
 
         
       <a 
-      href= "/Prabhat_Poddar_Resume.pdf"
+      href= "/Fw20_0612_Prabhat_Poddar.pdf"
       
       download={true}
       

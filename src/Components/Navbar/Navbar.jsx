@@ -81,7 +81,7 @@ export const Navbar = () => {
           <li className="nav__list-item">
            
            <a
-              href= "/Prabhat_Poddar_Resume.pdf"
+              href= "/Fw20_0612_Prabhat_Poddar.pdf"
              onClick={redirect}
             
               download={true}
