@@ -1,24 +1,14 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat, FaRe } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import {
   SiChakraui,
-  SiBlockchaindotcom,
   SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
   SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
   SiMongodb,
-  SiNodedotjs,
   SiRedux
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
@@ -44,7 +34,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Myntra.com Clone</h2>
                 <p>
-                  Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India. The company was founded in 2007-2008 to sell personalized gift items. In May 2014, Myntra.com was acquired by Flipkart.
+                  Shop24 is a web application built using the MERN stack, designed to be a clone of Myntra.com, one of India's largest e-commerce websites. As the lead backend developer, I am responsible for creating the entire backend architecture of the application. Additionally, I am tasked with designing and implementing the Admin Panel Login, Signup, and Payment pages on the frontend. Overall, my contributions to this project aim to provide users with a seamless e-commerce experience similar to Myntra.com.
 
                 </p>
                 <div>
@@ -93,10 +83,11 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Zomato.com Clone</h2>
                 <p>
-                  Zomato is an Indian multinational restaurant aggregator and food delivery company. Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants in more than 1,000 Indian cities
+                  Tasty Treat is a web application that serves as a clone of Zomato, one of India's largest food ordering sites. The application is built using React and Redux, two popular front-end development frameworks. As the lead developer of the project, I am responsible for creating the entire application, from designing and implementing the user interface to setting up the server-side APIs and database. My goal is to create a seamless and user-friendly experience for customers who want to order food from their favorite restaurants online
                 </p>
                 <div>
                   <FaReact />
+                  <SiRedux />
                   <SiChakraui />
                   <IoLogoJavascript />
 
@@ -191,8 +182,8 @@ export const Projects = () => {
                   Ketto is India's best medical crowdfunding platform. Founded in 2012 by Varun Sheth, Kunal Kapoor and Zaheer Adenwala, we have assisted more than 2 Lakh individuals and Organisations in raising funds through Online Crowdfunding Campaigns across India.
                 </p>
                 <div>
-                  <FaReact />
-                  <SiChakraui />
+                  <DiCss3 />
+                  <SiHtml5 />
                   <IoLogoJavascript />
 
                 </div>
