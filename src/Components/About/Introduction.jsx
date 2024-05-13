@@ -26,10 +26,10 @@ export const Introduction = () => {
                   {" "}
                   Kolkata , West Bengal (India)
                 </span>
-                . I am pursuing my graduation  (BCA)
+                . I have completed my graduation  (BCA)
                 from{" "}
                 <span className="different">
-                Indira Gandhi National Open University (IGNOU)
+               Kanpur University
                 </span>
                 . Then I joined full stack development course by{" "}
                 <span className="different">Masai School</span> a military type

@@ -7,13 +7,16 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 import "./Contact.css"
 import { ThemeContext } from "../../Context/theme";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
+  const navigate = useNavigate()
 
   useEffect(() => {
     AOS.init({ delay: 200 });
   }, [])
+
 
   return (
     <>
@@ -83,13 +86,13 @@ const Contact = () => {
 
           <div className="w-full flex justify-center mt-8 md:m-auto lg:-mt-5"  >
             <form
-             action="https://getform.io/f/5ed0fbc4-9d5b-40e5-8e56-c74357705252" method="POST" encType="multipart/form-data"
+              action="https://getform.io/f/5ed0fbc4-9d5b-40e5-8e56-c74357705252" method="POST" encType="multipart/form-data"
 
               className=" flex flex-col w-full md:w-1/2"
             >
               <input
                 type="text"
-                name="name"
+                name="Name"
                 required
                 placeholder="Enter your name"
                 className={
@@ -98,7 +101,7 @@ const Contact = () => {
               />
               <input
                 type="email"
-                name="email"
+                name="Email"
                 required
                 placeholder="Enter your email"
                 className={
