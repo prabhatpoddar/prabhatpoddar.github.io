@@ -19,16 +19,14 @@ const Contact = () => {
     <>
       <div
         name="contact us"
-        className="w-full   text-white"
+        className="w-full text-white"
       >
-        <div className="max-w-screen-lg mx-auto" >
-
-          <p className="py-6 text-4xl text-center section__title different ">Contact</p>
-        </div>
-        <div className="max-w-screen-lg flex flex-col mx-auto mt-16 mb-16 md:m-auto md:flex-row gap-x-3 justify-center items-center">
-          {/* Left side */}
-          <div className='flex flex-col justify-center gap-y-14 mt-0 md:-mt-20'>
-            <div className='w-full flex gap-3 p-6 rounded-xl shadow-lg shadow-gray-600  ' >
+        <div className="max-w-4xl mx-auto px-4">
+          <p className="py-6 text-4xl text-center section__title different">Contact</p>
+          <div className="contact-grid mt-12 mb-16">
+            {/* Left side */}
+            <div className="contact-info">
+            <div className='contact-card flex gap-3 p-6 rounded-xl shadow-lg shadow-gray-600' >
               <div>
                 <FcPhone className="hover:animate-bounce" size="32px" />
               </div>
@@ -46,7 +44,7 @@ const Contact = () => {
                 </a></h1>
               </div>
             </div>
-            <div className='w-full flex gap-3 p-6 rounded-xl shadow-lg shadow-gray-600'  >
+            <div className='contact-card flex gap-3 p-6 rounded-xl shadow-lg shadow-gray-600' >
               <div>
                 <SiGmail className="hover:animate-bounce" size="32px" color="red" />
               </div>
@@ -63,7 +61,7 @@ const Contact = () => {
                 </a></h1>
               </div>
             </div>
-            <div className='w-full flex gap-3 p-6 rounded-xl  shadow-lg shadow-gray-600'  >
+            <div className='contact-card flex gap-3 p-6 rounded-xl shadow-lg shadow-gray-600' >
               <div>
                 <a href="https://www.google.com/maps/place/Ganganagar,+Doharia+Shailesh+Nagar,+Chandigarh,+Madhyamgram,+Kolkata,+West+Bengal+700132/@22.6777221,88.4535752,15.44z/data=!4m5!3m4!1s0x39f89f131ef801dd:0xb888c99cae24e8b9!8m2!3d22.6754637!4d88.4591673" target="_blank" >
                   <FaMapMarkerAlt className="hover:animate-bounce" size="32px" color="red" />
@@ -79,13 +77,13 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Right side  */}
-
-          <div className="w-full flex justify-center mt-8 md:m-auto lg:-mt-5"  >
+          {/* Right side */}
+          <div className="contact-form-wrapper">
             <form
-              action="https://getform.io/f/5ed0fbc4-9d5b-40e5-8e56-c74357705252" method="POST" encType="multipart/form-data"
-
-              className=" flex flex-col w-full md:w-1/2"
+              action="https://getform.io/f/5ed0fbc4-9d5b-40e5-8e56-c74357705252"
+              method="POST"
+              encType="multipart/form-data"
+              className="contact-form flex flex-col w-full"
             >
               <input
                 type="text"
@@ -128,6 +126,7 @@ const Contact = () => {
                 Let's Connect
               </button>
             </form>
+          </div>
           </div>
         </div>
       </div>
