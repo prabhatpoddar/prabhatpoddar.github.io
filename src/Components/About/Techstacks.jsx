@@ -4,7 +4,7 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
-  SiMaterialui,
+  SiMui,
   SiTailwindcss,
   SiNextdotjs,
   SiFirebase,
@@ -67,8 +67,8 @@ export const Techstacks = () => {
             <h5>Chakra Ui</h5>
           </div>
           <div>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
+            <SiMui />
+            <h5>MUI</h5>
           </div>
           <div>
             <SiRedux />
