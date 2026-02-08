@@ -39,6 +39,15 @@ main {
   margin-top: 5em;
 }
 
+/* Extra spacing so "Days I Code" doesn’t overlap the Skills icons above */
+.github-section {
+  margin-top: 6em;
+}
+.github-section__title {
+  margin-top: 0.5em;
+  margin-bottom: 1.25em;
+}
+
 .section__title {
   text-align: center;
   margin-bottom: 1em;

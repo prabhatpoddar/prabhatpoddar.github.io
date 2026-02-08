@@ -14,8 +14,8 @@ export const Github = () => {
 
   return (
     <>
-      <div className={"section " + colourTheme} data-aos="fade-right">
-        <h2 className="section__title different">
+      <div className={"section github-section " + colourTheme} data-aos="fade-right">
+        <h2 className="section__title different github-section__title">
           Days I <span className="different"> Code</span>
         </h2>
         <GitHubCalendar

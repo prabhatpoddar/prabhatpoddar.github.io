@@ -1,12 +1,18 @@
 .main {
   margin-top: 4em;
+  margin-bottom: 2em;
 }
 .techsection {
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
-  height: 70vh;
-  /* max-height: 400px; */
+  min-height: 70vh;
+  overflow: auto;
+}
+.techsection::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .techsection > div {
