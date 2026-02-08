@@ -70,6 +70,41 @@ export const Timeline = () => {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"Jul 2021 - Feb 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<MdWork />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Frontend Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Remote
+            </h4>
+            <p data-aos="fade-right">Aaru Softech</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
             date={"Apr 2022 - Mar 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
