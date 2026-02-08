@@ -27,17 +27,17 @@ export default function App() {
         <LoadingPage />
       ) : (
         <div id="top" className={`${themename} app`}>
-          <section id="#home">
+          <section id="home">
             <Header />
           </section>
           <main>
             <About />
             <Github />
             <State />
-            <section id="#projects">
+            <section id="projects">
               <Projects />
             </section>
-            <section id="#contact">
+            <section id="contact">
               <Contact />
             </section>
           </main>

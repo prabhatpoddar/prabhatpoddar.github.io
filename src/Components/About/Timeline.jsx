@@ -10,7 +10,6 @@ import SchoolIcon from "@mui/icons-material/School";
 import { MdWork } from "react-icons/md";
 import StarRateIcon from "@mui/icons-material/StarRate";
 import { ThemeContext } from "../../Context/theme";
-import { Link } from "react-router-dom";
 
 export const Timeline = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -34,7 +33,7 @@ export const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Mar 2023 - till now"}
+            date={"Mar 2023 – Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -62,10 +61,10 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Noida,UP (OnSite)
+              Noida, UP (On-site)
             </h4>
             <p data-aos="fade-right">
-              <Link to="https://www.spacetotech.com/">Space To Tech</Link>
+              <a href="https://www.spacetotech.com/" target="_blank" rel="noreferrer">Space To Tech</a>
             </p>
           </VerticalTimelineElement>
 
@@ -136,8 +135,9 @@ export const Timeline = () => {
               Masai School (Remote)
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
+              Joined an intensive coding bootcamp to learn full-stack development
+              and DSA. Gained hands-on experience in building full-stack
+              applications and collaborative development.
             </p>
           </VerticalTimelineElement>
       
@@ -173,7 +173,7 @@ export const Timeline = () => {
             >
               Kanpur University
             </h4>
-            <p data-aos="fade-right">Passed with 74.57 Percentage.</p>
+            <p data-aos="fade-right">Passed with 74.57%.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -207,7 +207,7 @@ export const Timeline = () => {
             >
               Dum Dum Airport Hindi High School, Kolkata
             </h4>
-            <p data-aos="fade-right">Passed with 64.57 Percentage.</p>
+            <p data-aos="fade-right">Passed with 64.57%.</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement

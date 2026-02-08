@@ -11,7 +11,7 @@ export const Footer = () => {
         <a href="/" rel="noreferrer" target="_blank">
           <div className="footerBox">
             <h3 className="footer">
-            Copyright © 2023 Designed and created by Prabhat Poddar
+            Copyright © {new Date().getFullYear()} Designed and built by Prabhat Poddar
             </h3>
           </div>
         </a>

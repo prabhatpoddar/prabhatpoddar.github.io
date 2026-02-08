@@ -12,20 +12,14 @@ export const Navbar = () => {
   
 
   const toggleNavList = (id) => {
-
-    var element = document.getElementById(id);
+    const elementId = typeof id === "string" ? id.replace(/^#/, "") : null;
+    const element = elementId ? document.getElementById(elementId) : null;
     if (element) {
-      element.scrollIntoView();
+      element.scrollIntoView({ behavior: "smooth" });
     }
     setShowNavList(!showNavList);
   };
 
-   const  redirect=()=>{
-    window.open(
-      "https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing"
-    );
-   
-  }
   return (
     <>
       <nav className="center nav">
@@ -81,17 +75,14 @@ export const Navbar = () => {
           <li className="nav__list-item">
            
            <a
-              href= "/Fw20_0612_Prabhat_Poddar.pdf"
-             onClick={redirect}
-            
-              download={true}
-
+              href="https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing"
+              onClick={() => toggleNavList()}
               className="link link--nav"
               target="_blank"
-          
+              rel="noreferrer"
+              aria-label="Open resume"
             >
-            Resume
-           
+              Resume
             </a>
           </li>
         </ul>

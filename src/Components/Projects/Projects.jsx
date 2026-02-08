@@ -34,8 +34,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Myntra.com Clone</h2>
                 <p>
-                  Shop24 is a web application built using the MERN stack, designed to be a clone of Myntra.com, one of India's largest e-commerce websites. As the lead backend developer, I am responsible for creating the entire backend architecture of the application. Additionally, I am tasked with designing and implementing the Admin Panel Login, Signup, and Payment pages on the frontend. Overall, my contributions to this project aim to provide users with a seamless e-commerce experience similar to Myntra.com.
-
+                  Shop24 is a MERN stack e-commerce web app inspired by Myntra. I led backend development and built the admin panel (login, signup, payment). The app delivers a seamless shopping experience with product listing, cart, and checkout.
                 </p>
                 <div>
                   <FaReact />
@@ -83,7 +82,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Zomato.com Clone</h2>
                 <p>
-                  Tasty Treat is a web application that serves as a clone of Zomato, one of India's largest food ordering sites. The application is built using React and Redux, two popular front-end development frameworks. As the lead developer of the project, I am responsible for creating the entire application, from designing and implementing the user interface to setting up the server-side APIs and database. My goal is to create a seamless and user-friendly experience for customers who want to order food from their favorite restaurants online
+                  Tasty Treat is a React and Redux food-ordering web app inspired by Zomato. I built the full application: UI, state management, and integration with backend APIs. Users can browse restaurants, view menus, and place orders with a responsive, user-friendly interface.
                 </p>
                 <div>
                   <FaReact />
@@ -133,8 +132,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Ayoa.com Clone</h2>
                 <p>
-                  Ayoa.com seamlessly syncs all of your work across the devices that you're using. If you've created a mind map, task board or whiteboard on your computer and want to access it on your phone or tablet, simply open the Ayoa app on your mobile device and ta-dah, your work will appear ready for you to edit
-
+                  A collaborative productivity clone inspired by Ayoa: mind maps, task boards, and whiteboards that sync across devices. Built with HTML, CSS, and JavaScript; focused on clean UI and core project-management features.
                 </p>
                 <div>
                   <DiCss3 />
@@ -147,7 +145,7 @@ export const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type="button" className="btns onbt">
                       See this Live
                     </span>
                   </a>
@@ -179,7 +177,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Ketto.com Clone</h2>
                 <p>
-                  Ketto is India's best medical crowdfunding platform. Founded in 2012 by Varun Sheth, Kunal Kapoor and Zaheer Adenwala, we have assisted more than 2 Lakh individuals and Organisations in raising funds through Online Crowdfunding Campaigns across India.
+                  A crowdfunding clone inspired by Ketto. Users can create campaigns, donate, and track funding progress. Built with HTML, CSS, and JavaScript; includes campaign listing, detail pages, and a simple donation flow.
                 </p>
                 <div>
                   <DiCss3 />

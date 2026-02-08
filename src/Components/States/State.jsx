@@ -1,19 +1,11 @@
 import React from "react";
 import "../Projects/Projects.css";
-import { FaReact, FaHardHat, FaRe } from "react-icons/fa";
-import {
-  SiChakraui,
-  SiHtml5,
 
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
 export const State = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different"></h2>
+        <h2 className="section__title different">GitHub Stats</h2>
         <div className="allProjects">
           {/* 3 project */}
           <div className="projects_container" data-aos="fade-right">

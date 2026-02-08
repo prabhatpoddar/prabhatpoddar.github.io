@@ -14,12 +14,14 @@ import profilePic from "../../assets/Photo_fw20_0612.jpeg";
 
 export const About = () => {
   
-   const  redirect=()=>{
-       window.open(
-          "https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing"
-        );
-   
-  }
+   const openResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1ARoQNnQb7bb7QVgvVe8ws8qQtv4dmywb/view?usp=sharing",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <>
       <div className="about center ">
@@ -29,7 +31,12 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        I am a MERN stack developer who has recently Completed His Full Stack Web Development Course from Masai School using MongoDB, Express, React, and Node.js (MERN). I am eager to put My skills to use and gain hands-on experience in a professional setting. I have a passion for coding and am constantly seeking to improve my abilities. I understand front-end technologies such as HTML, CSS, and JavaScript, as well as back-end technologies like MongoDB, Express, and Node.js.
+          I am a MERN stack developer with professional experience building
+          full-stack applications using MongoDB, Express, React, and Node.js.
+          I am eager to apply my skills and grow in a collaborative
+          environment. I work with front-end technologies such as HTML, CSS,
+          and JavaScript, and back-end technologies including MongoDB, Express,
+          and Node.js.
         </p>
         <div className="about__contact center">
           <a
@@ -80,26 +87,15 @@ export const About = () => {
         </div>
 
         
-      <a 
-      href= "/Fw20_0612_Prabhat_Poddar.pdf"
-      
-      download={true}
-      
-      className="link link--nav"
-      target="_blank"
-      style={{textDecoration:"none"}}
-      onClick={redirect}
-
-      >
       <button
-          className="btnResume"
-        
-        >
-          Resume
-        </button>
-       
-        
-      </a>
+        type="button"
+        className="btnResume link link--nav"
+        style={{ textDecoration: "none" }}
+        onClick={openResume}
+        aria-label="Open resume"
+      >
+        Resume
+      </button>
         </div>
         <div className="About_logocontainer">
               <img src={profilePic} alt="Images" />
@@ -107,7 +103,7 @@ export const About = () => {
       </div>
       <Introduction />
       <Timeline />
-      <section id="#skills">
+      <section id="skills">
         <Techstacks />
 
       </section>

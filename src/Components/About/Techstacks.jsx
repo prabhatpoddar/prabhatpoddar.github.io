@@ -8,7 +8,7 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiFirebase,
-
+  SiExpress,
   SiChakraui
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
@@ -41,7 +41,7 @@ export const Techstacks = () => {
           
           <div>
             <SiTypescript />
-            <h5>Typscript</h5>
+            <h5>TypeScript</h5>
           </div>
           <div>
             <FaReact />
@@ -49,22 +49,26 @@ export const Techstacks = () => {
           </div>
           <div>
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <h5>Node.js</h5>
+          </div>
+          <div>
+            <SiExpress />
+            <h5>Express</h5>
           </div>
           <div>
             <DiMongodb />
-            <h5>MongoDb</h5>
+            <h5>MongoDB</h5>
           </div>
     
           <div>
             
             <SiTailwindcss />
-            <h5>Tailwind Css</h5>
+            <h5>Tailwind CSS</h5>
           </div>
 
           <div>
             <SiChakraui />
-            <h5>Chakra Ui</h5>
+            <h5>Chakra UI</h5>
           </div>
           <div>
             <SiMui />
@@ -92,7 +96,7 @@ export const Techstacks = () => {
 
           <div>
             <FaAws />
-            <h5>Aws</h5>
+            <h5>AWS</h5>
           </div>
 
 
