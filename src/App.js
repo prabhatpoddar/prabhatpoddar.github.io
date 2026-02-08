@@ -41,6 +41,7 @@ export default function App() {
               <Contact />
             </section>
           </main>
+          
           <Footer />
           <ScrollToTop />
         </div>
